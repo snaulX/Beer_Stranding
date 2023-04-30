@@ -107,7 +107,7 @@ instances {
   prototype: "/main/ball.go"
   position {
     x: 3596.0
-    y: 636.0
+    y: 642.0
     z: 0.0
   }
   rotation {
