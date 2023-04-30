@@ -9,7 +9,7 @@ embedded_components {
   position {
     x: 0.0
     y: 0.0
-    z: 0.0
+    z: 1.0
   }
   rotation {
     x: 0.0
@@ -26,7 +26,7 @@ embedded_components {
   "mass: 0.0\n"
   "friction: 0.1\n"
   "restitution: 0.5\n"
-  "group: \"hat\"\n"
+  "group: \"default\"\n"
   "mask: \"default\"\n"
   "embedded_collision_shape {\n"
   "  shapes {\n"
