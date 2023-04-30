@@ -23,7 +23,7 @@ embedded_components {
   type: "collisionobject"
   data: "collision_shape: \"\"\n"
   "type: COLLISION_OBJECT_TYPE_DYNAMIC\n"
-  "mass: 1.0\n"
+  "mass: 0.3\n"
   "friction: 0.1\n"
   "restitution: 0.5\n"
   "group: \"default\"\n"
