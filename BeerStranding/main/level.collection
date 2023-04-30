@@ -101,6 +101,26 @@ instances {
     z: 1.0
   }
 }
+instances {
+  id: "ball"
+  prototype: "/main/ball.go"
+  position {
+    x: 3596.0
+    y: 636.0
+    z: 0.5
+  }
+  rotation {
+    x: 0.0
+    y: 0.0
+    z: 0.50478894
+    w: 0.8632428
+  }
+  scale3 {
+    x: 1.0
+    y: 1.0
+    z: 1.0
+  }
+}
 scale_along_z: 0
 embedded_instances {
   id: "fake_map2"
