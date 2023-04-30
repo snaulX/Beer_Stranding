@@ -2,9 +2,6 @@ function init(self)
 	msg.post(".", "acquire_input_focus")
 end
 
-function update(self, dt)
-end
-
 local function look_at(target_position)
 	local my_position = go.get_position()
 	local angle = math.atan2(my_position.x - target_position.x, target_position.y - my_position.y)
@@ -12,8 +9,8 @@ local function look_at(target_position)
 end
 
 function on_input(self, action_id, action)
-	if action_id == hash('touch') then
+	--[[if action_id == hash('touch') then
 		local target_position = vmath.vector3(action.x, action.y, 0)
 		look_at(target_position)
-	end
+	end]]--
 end
