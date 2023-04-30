@@ -1,5 +1,5 @@
 images {
-  image: "/assets/images/buildings/Vasilii.png"
+  image: "/assets/images/buildings/Friend.png"
   sprite_trim_mode: SPRITE_TRIM_MODE_OFF
 }
 margin: 0
