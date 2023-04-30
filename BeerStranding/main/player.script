@@ -1,0 +1,13 @@
+go.property('leg_start', vmath.vector3())
+go.property('leg_end', vmath.vector3())
+go.property('neck', vmath.vector3())
+
+function init(self)
+	--[[physics.create_joint(physics.JOINT_TYPE_HINGE, "body#collisionobject", "leg01_joint", self.leg_start, "leg01#collisionobject", self.leg_start)
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "body#collisionobject", "leg02_joint", self.leg_start, "leg02#collisionobject", self.leg_start)
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "leg01#collisionobject", "foot01_joint", self.leg_end, "foot01#collisionobject", self.leg_end)
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "leg02#collisionobject", "foot02_joint", self.leg_end, "foot02#collisionobject", self.leg_end)
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "body#collisionobject", "neck_joint", self.neck, "head#collisionobject", self.neck)
+	physics.create_joint(physics.JOINT_TYPE_SPRING, "head#collisionobject", "body_joint", self.neck, "body#collisionobject", self.leg_start)
+	--]]
+end

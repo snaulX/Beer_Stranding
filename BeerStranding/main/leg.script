@@ -1,9 +1,5 @@
-go.property('leg_start', vmath.vector3())
-go.property('leg_end', vmath.vector3())
-
 function init(self)
 	msg.post(".", "acquire_input_focus")
-	physics.create_joint(physics.JOINT_TYPE_HINGE, "body#collisionobject", "leg_joint", self.leg_start, "leg01#collisionobject", self.leg_end)
 end
 
 function update(self, dt)
