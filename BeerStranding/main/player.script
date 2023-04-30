@@ -1,0 +1,5 @@
+function init(self)
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "leg01#collisionobject", "leg01_joint", vmath.vector3(-3, 35, 0), "body#collisionobject", vmath.vector3(0, 0, 0))
+	physics.create_joint(physics.JOINT_TYPE_HINGE, "leg02#collisionobject", "leg02_joint", vmath.vector3(-3, 35, 0), "body#collisionobject", vmath.vector3(0, 0, 0))
+	--physics.create_joint(physics.JOINT_TYPE_HINGE, "body#collisionobject", "neck_joint", vmath.vector3(-4, 62, 0), "head#collisionobject", vmath.vector3(-3, 55, 0), {lower_angle=math.pi/6, upper_angle=math.pi/2})
+end
