@@ -1,6 +1,5 @@
 [project]
 title = BeerStranding
-dependencies#0 = https://github.com/Lerg/extension-openal/releases
 
 [bootstrap]
 main_collection = /main/main.collectionc
